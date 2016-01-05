@@ -1,0 +1,17 @@
+figuring out the bash portion of the code, i found that perhaps using bash's 'echo' command is not "best-practice" when writing script.
+
+source : http://wiki.bash-hackers.org/commands/builtin/printf
+led to by : http://stackoverflow.com/questions/8467424/echo-new-line-in-bash-prints-literal-n
+
+I find this to be interesting knowledge.
+
+Hmm, if i'm storing sensitive data using bash, i do not want my bash commands recorded. How does bash record commands any ways?
+
+echo $HISTFILE
+
+How do i turn this off?
+
+To turn off : set +o history
+Turn on : set -o history
+
+from : http://unix.stackexchange.com/questions/10922/temporarily-suspend-bash-history-on-a-given-shell

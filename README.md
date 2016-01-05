@@ -1,9 +1,9 @@
-# A simple 'hello world' for the digital ocean api
+# A simple 'hello world' for the digital ocean api (In Progress)
 
 Would you like to view the gh-pages branch?
 
-I have been playing/working with virtual machines and servers for a few minutes lately and i'm sick of repeating myself.
+I have been playing/working with virtual machines and cloud servers for a few minutes and i'm sick of repeating myself.
 
-There is an API!!
+Hey! There's an API!!
 
 Woot Woot!
