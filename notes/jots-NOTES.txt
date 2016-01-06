@@ -1,3 +1,10 @@
+
+
+
+1/6/16 (Still working on the bottom end)
+So i'm using bash to store my tokens and once i wrote out the script, it seemed a bit convuluted and hard to follow. So i did a quick google search and found a post where someone showed an example of bash done in a more OO fashion. Well, i rewrote the whole thing. It looks a lot nicer though.
+
+1/5/16 (Starting)
 figuring out the bash portion of the code, i found that perhaps using bash's 'echo' command is not "best-practice" when writing script.
 
 source : http://wiki.bash-hackers.org/commands/builtin/printf
@@ -15,3 +22,4 @@ To turn off : set +o history
 Turn on : set -o history
 
 from : http://unix.stackexchange.com/questions/10922/temporarily-suspend-bash-history-on-a-given-shell
+
