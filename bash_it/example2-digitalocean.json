@@ -1,0 +1,26 @@
+{
+"variables": {
+"do_api_token": "put_your_digital_ocean_api_token_here"
+},
+"builders": [
+{
+"type": "digitalocean",
+"api_token": "{{user `do_api_token`}}",
+  "image": "ubuntu-12-04-x64",
+  "region": "nyc3",
+  "size": "512mb"
+}],
+"provisioners": [{
+    "type": "shell",
+    "inline": [
+      "sleep 30",
+      "sudo apt-get update",
+      "sudo apt-get install -y redis-server",
+      "sudo apt-get install -y apache2",
+      "sudo apt-get install -y git",
+      "cd /var/www/",
+      "printf 'yes YES yes YES yes YES yes YES ' >> index.html",
+      "git clone https://github.com/KoreaHaos/example_site.git"
+    ]
+  }]
+}

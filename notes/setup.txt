@@ -1,0 +1,3 @@
+https://cloud.digitalocean.com/settings/api
+https://cloud.digitalocean.com/droplets
+https://cloud.digitalocean.com/images

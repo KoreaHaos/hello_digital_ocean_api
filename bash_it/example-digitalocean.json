@@ -1,0 +1,13 @@
+{
+"variables": {
+"do_api_token": "put_your_digital_ocean_api_token_here"
+},
+"builders": [
+{
+"type": "digitalocean",
+"api_token": "{{user `do_api_token`}}",
+  "image": "ubuntu-12-04-x64",
+  "region": "nyc2",
+  "size": "512mb"
+}]
+}
