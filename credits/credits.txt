@@ -1,0 +1,2 @@
+under-construction.jpg = https://pixabay.com/en/under-construction-404-web-site-928246/
+index.html (original) = http://www.december.com/html/tutor/hello.html
