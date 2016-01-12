@@ -18,13 +18,4 @@ function install_packer()
     unzip $DOWNLOAD_FILE_PATH_AND_NAME -d  $PACKER_DIR
     
     echo 'export PATH=$PATH:~/packer/' >> ~/.bashrc
-    
-    export PATH=$PATH:~/packer/
-    
-    packer --help
-    
-    exec bash
-
-    source ~/.bashrc
-    echo "install_packer script has finished."
 }

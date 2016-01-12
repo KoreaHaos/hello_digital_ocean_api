@@ -14,3 +14,5 @@ to run:
 clone the repo into a Cloud9 Virtual IDE.
 open terminal in project's root.
 bash SETUP_VM.bash
+exit terminal and open new terminal in project's root again.
+type packer to see command options.
