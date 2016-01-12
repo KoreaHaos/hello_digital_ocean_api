@@ -1,2 +1,5 @@
 # hello_digital_ocean_api
-As it says.
+
+This is a repo for automating the creation of Digital Ocean virtual machines.
+
+*Under Construction!*
