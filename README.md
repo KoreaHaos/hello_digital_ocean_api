@@ -9,3 +9,8 @@ Hey! There's an API!!
 Woot Woot!
 
 Status = Under Construction!
+
+to run:
+clone the repo into a Cloud9 Virtual IDE.
+open terminal in project's root.
+bash SETUP_VM.bash
