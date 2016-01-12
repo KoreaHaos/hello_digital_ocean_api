@@ -1,15 +1,5 @@
-source install_packer.bash
-function say_hello {
-    echo hello!
-}
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-function return_hello() {
-    local return_value='hello world!'
-    echo $return_value
-}
-
-say_hello
-test=$(return_hello)
-echo $test
+source $DIR/install_packer.bash
 
 install_packer
