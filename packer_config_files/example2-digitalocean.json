@@ -19,8 +19,10 @@
       "sudo apt-get install -y apache2",
       "sudo apt-get install -y git",
       "cd /var/www/",
-      "printf 'yes YES yes YES yes YES yes YES ' >> index.html",
-      "git clone https://github.com/KoreaHaos/example_site.git"
+      "rm index.html",
+      "git init .",
+      "git remote add -t \\* -f origin https://github.com/KoreaHaos/example_site.git",
+      "git checkout master"
     ]
   }]
 }
