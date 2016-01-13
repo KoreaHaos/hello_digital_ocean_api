@@ -10,6 +10,7 @@ There's an **API !!**
 #### Woot Woot!
 
 **Status :** *Under Construction...*
+* 1/13/16 - It works but it's rough.
 
 ### to run:
 * clone the repo into a Cloud9 Virtual IDE.
